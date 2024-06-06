@@ -13,7 +13,7 @@ const Routes = createBrowserRouter([
     ],
   },
   {
-    path: "/signup",
+    path: "/signUp",
     element: <h1>About</h1>,
   },
   {
