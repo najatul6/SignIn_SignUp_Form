@@ -45,12 +45,20 @@ const Routes = createBrowserRouter([
         path: "/signIn",
         element: <SignIn/>,
       },
-      {
-        path: "/form",
-        element: <Form/>,
+      ],
       },
-    ],
-  },
+        {
+          path: "/form",
+          element: <Form/>,
+        },
+        {
+          path: "/signIn",
+          element: <SignIn/>,
+        },
+        {
+          path: "/form",
+          element: <Form/>,
+        },
   
 ]);
 
